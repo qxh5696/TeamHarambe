@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -12,7 +13,9 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <!--<link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" type="text/css" href="<?= URL_CSS ?>bootstrap.min.css">
+        <link rel="stylesheet" type="text/js" href="<?= URL_JS ?>bootstrap.min.css">
+        <link rel="stylesheet" href="<?= URL_CSS ?>main.css">
     </head>
     <body>
      

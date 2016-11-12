@@ -31,8 +31,9 @@
 	color: #fff;
   	background-color: #428bca;
 }
-.dropdown-menu > li > a:hover {
-	color: #536987; /* Blue color */
+.dropdown-menu > li > a:hover,
+.nav-sidebar > li > a:hover {
+	color: #2d608c;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
@@ -97,4 +98,5 @@
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
+  color: black;
 }

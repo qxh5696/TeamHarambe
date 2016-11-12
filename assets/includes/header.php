@@ -25,6 +25,7 @@
 
         <!-- Custom styles for this site -->
         <link href="assets/css/global-nav.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
     </head>
     <body>
      

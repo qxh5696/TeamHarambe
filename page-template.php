@@ -1,6 +1,8 @@
 <?php
-include 'header.php';
-include 'global-nav.php';
+    $page_title = "Home Page";
+    $active_page = "home";
+    include "assets/includes/header.php";
+    include "assets/includes/global-nav.php";
 ?>
 
 <div class="container-fluid">
@@ -29,9 +31,10 @@ include 'global-nav.php';
 </div>
 
 <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
-          <h1>Dashboard</h1>
+          <h1>H1</h1>
 </div>
 
-<?php
-include 'footer.php';
-?>
+
+<?php 
+    include "assets/includes/footer.php";
+?>       

@@ -17,9 +17,13 @@
 	-webkit-box-shadow: none;
 	background-color: #efefef;
 }
-.navbar-inverse, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse, 
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
 	background-image: none;
-	background-color: #457ABB;
+	color: #fff;
+  	background-color: #428bca;
 }
 .dropdown-menu > li > a:hover {
 	color: #536987; /* Blue color */
@@ -48,4 +52,9 @@
 }
 .navbar-toggle {
   overflow: hidden;
+}
+@media (min-width: 768px){
+	.navbar-inverse > .container {
+		margin-left: 16.66%;
+	}
 }

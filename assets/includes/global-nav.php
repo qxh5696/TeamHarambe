@@ -1,3 +1,6 @@
+<div class="container logo">
+	<a href=""><img src="assets/images/logo.png" alt="RegExplain Logo" style="width:302px;"></a>
+</div>
 <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="80">
 		<div class="container">
 			<div class="navbar-header">

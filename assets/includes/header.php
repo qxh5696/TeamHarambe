@@ -24,7 +24,7 @@
         <script src="assets/js/npm.js"></script>
 
         <!-- Custom styles for this site -->
-        <link href="assets/css/global-nav.css" rel="stylesheet">
+        <link href="assets/css/nav.css" rel="stylesheet">
         <link href="assets/css/custom.css" rel="stylesheet">
     </head>
     <body>

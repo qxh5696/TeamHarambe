@@ -1,17 +1,17 @@
 .main {
   padding: 20px;
 }
+.logo {
+	background-color: #428bca;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
 @media (min-width: 768px) {
   .main {
     padding-right: 40px;
     padding-left: 40px;
     float: right;
-  }
-  .logo {
-	background-color: #428bca;
-	margin-left: 0;
-	margin-right: 0;
-	width: 100%;
   }
 }
 

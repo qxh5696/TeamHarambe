@@ -60,11 +60,29 @@
 
   <div class="question">
     <?php setQuestionHeader("q4","o1");?>
-    <h4>What is the dot (period) used for when making a regular expression</h4>
-    <label for="q4o1"><input type="radio" name="q4" id="q4o1" value="o1" <?php if ($_POST["q4"] == "o1"){echo "checked";} ?>>&nbsp  Gates</label><br/>
-    <label for="q4o2"><input type="radio" name="q4" id="q4o2" value="o2" <?php if ($_POST["q4"] == "o2"){echo "checked";} ?>>&nbsp Thompson</label><br/>
-    <label for="q4o3"><input type="radio" name="q4" id="q4o3" value="o3" <?php if ($_POST["q4"] == "o3"){echo "checked";} ?>>&nbsp en Kleene</label><br/>
-    <label for="q4o4"><input type="radio" name="q4" id="q4o4" value="o4" <?php if ($_POST["q4"] == "o4"){echo "checked";} ?>>&nbsp ed Aho</label><br/>
+    <h4>What is the dot (period) used for when making a regular expression?</h4>
+    <label for="q4o1"><input type="radio" name="q4" id="q4o1" value="o1" <?php if ($_POST["q4"] == "o1"){echo "checked";} ?>>&nbsp To match a single character</label><br/>
+    <label for="q4o2"><input type="radio" name="q4" id="q4o2" value="o2" <?php if ($_POST["q4"] == "o2"){echo "checked";} ?>>&nbsp Ending a regular expression</label><br/>
+    <label for="q4o3"><input type="radio" name="q4" id="q4o3" value="o3" <?php if ($_POST["q4"] == "o3"){echo "checked";} ?>>&nbsp Concatenating two regular expressions</label><br/>
+    <label for="q4o4"><input type="radio" name="q4" id="q4o4" value="o4" <?php if ($_POST["q4"] == "o4"){echo "checked";} ?>>&nbsp None of the above</label><br/>
+  </div>
+
+  <div class="question">
+    <?php setQuestionHeader("q5","o3");?>
+    <h4>What letters do the expression [abcx-z] match?</h4>
+    <label for="q5o1"><input type="radio" name="q5" id="q5o1" value="o1" <?php if ($_POST["q5"] == "o1"){echo "checked";} ?>>&nbsp “a”, “b”, “c”, “x”, or “z”</label><br/>
+    <label for="q5o2"><input type="radio" name="q5" id="q5o2" value="o2" <?php if ($_POST["q5"] == "o2"){echo "checked";} ?>>&nbsp “a”, “b”, “c”, “x”, “y”, and “z”</label><br/>
+    <label for="q5o3"><input type="radio" name="q5" id="q5o3" value="o3" <?php if ($_POST["q5"] == "o3"){echo "checked";} ?>>&nbsp “a”, “b”, “c”, “x”, “y”, or “z”</label><br/>
+    <label for="q5o4"><input type="radio" name="q5" id="q5o4" value="o4" <?php if ($_POST["q5"] == "o4"){echo "checked";} ?>>&nbsp “a”, “b”, “c”, “x”, and “z”</label><br/>
+  </div>
+
+  <div class="question">
+    <?php setQuestionHeader("q6","o4");?>
+    <h4>Which of these statemens is wrong reguarding anchors in regular expressions</h4>
+    <label for="q6o1"><input type="radio" name="q6" id="q6o1" value="o1" <?php if ($_POST["q6"] == "o1"){echo "checked";} ?>>&nbsp Anchors match a position rather than a specific character</label><br/>
+    <label for="q6o2"><input type="radio" name="q6" id="q6o2" value="o2" <?php if ($_POST["q6"] == "o2"){echo "checked";} ?>>&nbsp '$' matches the end of a string</label><br/>
+    <label for="q6o3"><input type="radio" name="q6" id="q6o3" value="o3" <?php if ($_POST["q6"] == "o3"){echo "checked";} ?>>&nbsp '^' matches the start of a string</label><br/>
+    <label for="q6o4"><input type="radio" name="q6" id="q6o4" value="o4" <?php if ($_POST["q6"] == "o4"){echo "checked";} ?>>&nbsp '&' matches the center of a string</label><br/>
   </div>
 
 <div class="question" id="submitButton">

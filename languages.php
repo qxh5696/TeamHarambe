@@ -25,7 +25,10 @@
 
 	<p>regexec returns 0 if the regular expression matches; otherwise, it returns a nonzero value. If you want to get information about what part of string actually matched the regular expression or its subexpressions, use the arguments matchptr and nmatch. Otherwise, pass 0 for nmatch, and NULL for matchptr.</p>
 
-	<p>EX:  regcomp(&amp;regex, "<strong>INSERT REGULAR EXPRESSION HERE</strong>", 0);</p>
+	<p>EX:  </p>
+	<pre>
+		regcomp(&amp;regex, "<strong>INSERT REGULAR EXPRESSION HERE</strong>", 0);
+	</pre>
 
 </div>
 
@@ -59,11 +62,11 @@
 	<p>The execution of regular expressions is as follows:</p>
 
 	<pre>
-		String line = "This order was placed for QT3000! OK?";
-     	String pattern = "(.*)(\\d+)(.*)";
-     	Pattern r = Pattern.compile(pattern);
-  	 	Matcher m = r.matcher(line);
-     	"m" will have a group attribute that has each match in it. If there's a match it will say "m.m=find()" is true.
+		String line = "This order was placed for QT3000! OK?"
+		String pattern = "(.*)(\\d+)(.*)";
+		Pattern r = Pattern.compile(pattern);
+		Matcher m = r.matcher(line);
+		"m" will have a group attribute that has each match in it. If there's a match it will say "m.m=find()" is true.
 	</pre>
 
 	
@@ -97,7 +100,9 @@
 
 	<p>Perl is the mother of all languages for regular expressions</p>
 
-	<p>my ($hours, $minutes, $seconds) = ($time =~ m/(\d+):(\d+):(\d+)/);</p>
+	<pre>
+	 	my ($hours, $minutes, $seconds) = ($time =~ m/(\d+):(\d+):(\d+)/);
+	 </pre> 
 
 	<p>Perl has so much built around regular expressions it would be unreasonable to try and include it in this webpage.
 	See the following link for more information: <a href="http://www.tutorialspoint.com/perl/perl_regular_expression.htm" target=_blank>Perl Reg. Ex.</a></p>
@@ -180,7 +185,10 @@
 	accordingly</p>
 
 	<p>Example: </p>
-	<p>SELECT 'fofo' REGEXP '^fo';</p>
+	<pre>
+		SELECT 'fofo' REGEXP '^fo';	
+	</pre>
+	
 
 	<p>This will return all results from the table from a column that match the specified regExp.</p>
 	

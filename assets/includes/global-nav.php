@@ -32,7 +32,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="#">Everyday Life</a></li>
 								<li><a href="#">Programming</a></li>
-								<li><a href="#">CS/CS Theory</a></li>
+								<li><a href="uses.php">CS/CS Theory</a></li>
 								<li><a href="#">Formal Languages</a></li>
 								<li role="separator" class="divider"></li>
 							</ul>
@@ -45,9 +45,9 @@
 								<li><a href="formalDefinition.php">Formal Definition</a></li>
 								<li><a href="cheatSheet.php">Cheat Sheet</a></li>
 								<li><a href="bestPractices.php">Best Practices</a></li>
-								<li><a href="#">Common Errors</a></li>
-								<li><a href="#">Examples</a></li>
-								<li><a href="#">Language Support</a></li>
+								<li><a href="commonMistakes.php">Common Errors</a></li>
+								<li><a href="examples.php">Examples</a></li>
+								<li><a href="languages.php">Language Support</a></li>
 								<li><a href="#">Language Comparison</a></li>
 								<li role="separator" class="divider"></li>
 							</ul>

@@ -1,13 +1,10 @@
 <?php
+	include "assets/includes/page_start.php";
     $page_title = "Uses";
     $active_page = "uses";
-    include "assets/includes/header.php";
-    include "assets/includes/global-nav.php";
-    include "assets/includes/sidebar.php";
+    include PATH_INC . "header.php";
     
 ?>
-
-<div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
 
 <h1>CS/CS Theory</h1>
 
@@ -80,21 +77,7 @@
             </ul>
 
     </p>
-    
-    <br/>
-    
-    <p>
-        
-    
-    </p>
-
-    
-    
-    
-    
-    
-</div>
 
 <?php 
-    include "assets/includes/footer.php";
+    include PATH_INC . "footer.php";
 ?>       

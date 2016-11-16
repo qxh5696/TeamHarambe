@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,7 +13,6 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <!--<link rel="stylesheet" href="css/main.css"> -->
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -29,4 +28,9 @@
         <link href="assets/css/custom.css" rel="stylesheet">
     </head>
     <body>
-     
+
+<?php
+    include "assets/includes/global-nav.php";
+    include "assets/includes/sidebar.php";
+?>
+    <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main"> <!-- This puts content under nav & to right of sidebar -->

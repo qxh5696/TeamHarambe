@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" data-spy="affix" data-offset-top="110">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">

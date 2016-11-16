@@ -1,6 +1,6 @@
-.affix {
-	top: 0;
-	width: 100%;
+.navbar-inverse {
+	margin-top: 60px;
+	box-shadow: 0 4px 2px -2px #d3d3d3;
 }
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
 	border-style: none;
@@ -48,7 +48,8 @@
 .navbar-inverse .navbar-toggle:focus {
 	background-color: #2d608c;
 }
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .active > a {
 	background-image: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -65,7 +66,7 @@
 }
 @media (min-width: 768px){
 	.navbar-inverse > .container {
-		margin-left: 16.66%;
+		margin-left: 16%;
 	}
 }
 /*
@@ -78,7 +79,7 @@
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
-    top: 119px;
+    top: 110px;
     bottom: 0;
     left: 0;
     z-index: 1000;

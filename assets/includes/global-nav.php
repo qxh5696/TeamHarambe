@@ -41,14 +41,13 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reference <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">History</a></li>
-								<li><a href="#">Formal Definition</a></li>
-								<li><a href="#">Cheat Sheet</a></li>
-								<li><a href="#">Best Practices</a></li>
-								<li><a href="#">Common Errors</a></li>
-								<li><a href="#">Examples</a></li>
-								<li><a href="#">Language Support</a></li>
-								<li><a href="#">Language Comparison</a></li>
+								<li><a href="history.php">History</a></li>
+								<li><a href="formalDefinition.php">Formal Definition</a></li>
+								<li><a href="cheatSheet.php">Cheat Sheet</a></li>
+								<li><a href="bestPractices.php">Best Practices</a></li>
+								<li><a href="commonMistakes.php">Common Errors</a></li>
+								<li><a href="examples.php">Examples</a></li>
+								<li><a href="languages.php">Language Support/Comparision</a></li>
 								<li role="separator" class="divider"></li>
 							</ul>
 						</li>

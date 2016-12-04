@@ -1,9 +1,10 @@
 var stuffForSidebar = "",
-$sideTags = $("h1,h2,h3,h4");
+$sideTags = $("h1,h2");
 
   function fillSidebar(){
-    $sideTags.each( function(i, sideTag){
-      stuffForSidebar += "<li><a href='#'>" + $sideTags.text() + "</a></li>";
+    $.each( $sideTags, function(i, sideTag){
+      // stuffForSidebar += "<li><a href='#'>" + sideTag.text() + "</a></li>";
+      stuffForSidebar += "<li><a href='#" + sideTag.getAttribute('id') + "'>" + sideTag.innerText + "</a></li>";
     });
     
     $(".nav-sidebar").html(stuffForSidebar);
